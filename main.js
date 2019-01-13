@@ -13,6 +13,7 @@ var app = new Vue({
 	},
 
 	computed: {
+		//filert books ny the title
 		filteredBooks: function () {
 			return this.books.filter((book) => {
 
